@@ -14,7 +14,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 
-@DefaultUrl("https://www.eventbrite.com")
+@DefaultUrl("https://www.google.com.com")
 
 public class LoginPage extends com.project.pages.PageObject {
 
@@ -23,7 +23,7 @@ public class LoginPage extends com.project.pages.PageObject {
 	public void clickLoginLink() throws InterruptedException {
 //		waitForPageLoaded();
 //		loginLink.click();
-		getDriver().get("https://www.eventbrite.com/signin/");
+		getDriver().get("https://www.google.com/signin/");
 	}
 	
 	@FindBy(id="signin-email")
